@@ -28,6 +28,7 @@ class SelectToppingsController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         NotificationCenter.default.addObserver(self, selector: #selector(self.keyboardNotification(notification:)), name: NSNotification.Name.UIKeyboardWillChangeFrame, object: nil)
+        searchBar.keyboardAppearance = .dark
     }
 
     deinit {
