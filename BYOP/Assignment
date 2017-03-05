@@ -1,0 +1,13 @@
+ASSIGNMENT:
+
+This coding test requires for you to deliver a fully functional app following the requirements below. You have 48-72 hours to complete it and send it back to us.
+
+Please follow the instructions carefully, as we will evaluate completion, coding practices, logic and time complexity.
+
+Finding Popular Build-Your-Own Pizzas
+
+A pizza chain wants to know which topping combinations are most popular for Build Your Own pizzas.
+
+Given the sample of orders that are attached, write an iPhone app to output the top # (By default is top 20, but should be able to modify this range as a setting in the app) most frequently ordered pizza configurations, listing the toppings for each along with the number of times that pizza configuration has been ordered.
+
+The user should also be able to create their own pizza configurations and store those custom pizza orders in a separate list. Using CoreData to handle those custom pizza orders for persistency. In addition, users should be able to favorite/un-favorite a custom order by selecting that order in the table. There should be some indicator to display whether a custom order has been favorited or not.

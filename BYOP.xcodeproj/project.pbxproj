@@ -7,14 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18251B0D090F59850B09BFC3 /* Pods_BYOPTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ED210CA3F3E5A8147272B4A /* Pods_BYOPTests.framework */; };
+		552447935F5B6308930E7E6E /* Pods_BYOPUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F16FFCC8DFFEE27BE07CB7EC /* Pods_BYOPUITests.framework */; };
+		8177C9B0676A659A0A78D3B2 /* Pods_BYOP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A97852FD768EFCEEE87CC548 /* Pods_BYOP.framework */; };
+		BFAA0C301E6B25A000FC7EA3 /* SelectToppingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAA0C2F1E6B25A000FC7EA3 /* SelectToppingsController.swift */; };
+		BFAA0C321E6B261A00FC7EA3 /* ToppingsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAA0C311E6B261A00FC7EA3 /* ToppingsCell.swift */; };
+		BFAA0C381E6B294D00FC7EA3 /* CustomOrdersController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAA0C371E6B294D00FC7EA3 /* CustomOrdersController.swift */; };
+		BFAA0C3A1E6B297C00FC7EA3 /* CustomOrdersCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAA0C391E6B297C00FC7EA3 /* CustomOrdersCell.swift */; };
+		BFAA0C3C1E6B589300FC7EA3 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAA0C3B1E6B589300FC7EA3 /* MainViewController.swift */; };
+		BFAA0C3E1E6B596600FC7EA3 /* SideMenuTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAA0C3D1E6B596600FC7EA3 /* SideMenuTableView.swift */; };
+		BFAA0C461E6C7F0A00FC7EA3 /* RankingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAA0C451E6C7F0A00FC7EA3 /* RankingCell.swift */; };
+		BFAA0C481E6C8FB700FC7EA3 /* Var.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAA0C471E6C8FB700FC7EA3 /* Var.swift */; };
 		BFAB3A621E6A9E82007E2F34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAB3A611E6A9E82007E2F34 /* AppDelegate.swift */; };
-		BFAB3A641E6A9E82007E2F34 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAB3A631E6A9E82007E2F34 /* ViewController.swift */; };
 		BFAB3A671E6A9E82007E2F34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFAB3A651E6A9E82007E2F34 /* Main.storyboard */; };
 		BFAB3A6A1E6A9E82007E2F34 /* BYOP.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BFAB3A681E6A9E82007E2F34 /* BYOP.xcdatamodeld */; };
 		BFAB3A6C1E6A9E82007E2F34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFAB3A6B1E6A9E82007E2F34 /* Assets.xcassets */; };
 		BFAB3A6F1E6A9E82007E2F34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFAB3A6D1E6A9E82007E2F34 /* LaunchScreen.storyboard */; };
 		BFAB3A7A1E6A9E82007E2F34 /* BYOPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAB3A791E6A9E82007E2F34 /* BYOPTests.swift */; };
 		BFAB3A851E6A9E82007E2F34 /* BYOPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAB3A841E6A9E82007E2F34 /* BYOPUITests.swift */; };
+		BFAB3A931E6A9E9C007E2F34 /* Toppings.json in Resources */ = {isa = PBXBuildFile; fileRef = BFAB3A921E6A9E9C007E2F34 /* Toppings.json */; };
+		BFAB3A951E6A9EC4007E2F34 /* Assignment in Resources */ = {isa = PBXBuildFile; fileRef = BFAB3A941E6A9EC4007E2F34 /* Assignment */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +47,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1725DF00B34BB6839F011DF4 /* Pods-BYOP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BYOP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BYOP/Pods-BYOP.debug.xcconfig"; sourceTree = "<group>"; };
+		35233D3BFC7951F9C625C974 /* Pods-BYOPUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BYOPUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BYOPUITests/Pods-BYOPUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7ED210CA3F3E5A8147272B4A /* Pods_BYOPTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BYOPTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		892DE9F1A8C7027B340179E0 /* Pods-BYOPTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BYOPTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BYOPTests/Pods-BYOPTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A67AE33D1242EC8A2F0499EB /* Pods-BYOP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BYOP.release.xcconfig"; path = "Pods/Target Support Files/Pods-BYOP/Pods-BYOP.release.xcconfig"; sourceTree = "<group>"; };
+		A97852FD768EFCEEE87CC548 /* Pods_BYOP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BYOP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAFC0AB618408A556F5B2C08 /* Pods-BYOPTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BYOPTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BYOPTests/Pods-BYOPTests.release.xcconfig"; sourceTree = "<group>"; };
+		BFAA0C2F1E6B25A000FC7EA3 /* SelectToppingsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectToppingsController.swift; sourceTree = "<group>"; };
+		BFAA0C311E6B261A00FC7EA3 /* ToppingsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToppingsCell.swift; sourceTree = "<group>"; };
+		BFAA0C371E6B294D00FC7EA3 /* CustomOrdersController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomOrdersController.swift; sourceTree = "<group>"; };
+		BFAA0C391E6B297C00FC7EA3 /* CustomOrdersCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomOrdersCell.swift; sourceTree = "<group>"; };
+		BFAA0C3B1E6B589300FC7EA3 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		BFAA0C3D1E6B596600FC7EA3 /* SideMenuTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuTableView.swift; sourceTree = "<group>"; };
+		BFAA0C451E6C7F0A00FC7EA3 /* RankingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RankingCell.swift; sourceTree = "<group>"; };
+		BFAA0C471E6C8FB700FC7EA3 /* Var.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Var.swift; sourceTree = "<group>"; };
 		BFAB3A5E1E6A9E82007E2F34 /* BYOP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BYOP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFAB3A611E6A9E82007E2F34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BFAB3A631E6A9E82007E2F34 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BFAB3A661E6A9E82007E2F34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BFAB3A691E6A9E82007E2F34 /* BYOP.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BYOP.xcdatamodel; sourceTree = "<group>"; };
 		BFAB3A6B1E6A9E82007E2F34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +75,10 @@
 		BFAB3A801E6A9E82007E2F34 /* BYOPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BYOPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFAB3A841E6A9E82007E2F34 /* BYOPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BYOPUITests.swift; sourceTree = "<group>"; };
 		BFAB3A861E6A9E82007E2F34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFAB3A921E6A9E9C007E2F34 /* Toppings.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Toppings.json; sourceTree = "<group>"; };
+		BFAB3A941E6A9EC4007E2F34 /* Assignment */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Assignment; sourceTree = "<group>"; };
+		EFEA1024820C52F56ED3A88D /* Pods-BYOPUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BYOPUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BYOPUITests/Pods-BYOPUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F16FFCC8DFFEE27BE07CB7EC /* Pods_BYOPUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BYOPUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8177C9B0676A659A0A78D3B2 /* Pods_BYOP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18251B0D090F59850B09BFC3 /* Pods_BYOPTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +102,61 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				552447935F5B6308930E7E6E /* Pods_BYOPUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F69AF5B2FCC9FFADA8D5939 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1725DF00B34BB6839F011DF4 /* Pods-BYOP.debug.xcconfig */,
+				A67AE33D1242EC8A2F0499EB /* Pods-BYOP.release.xcconfig */,
+				892DE9F1A8C7027B340179E0 /* Pods-BYOPTests.debug.xcconfig */,
+				BAFC0AB618408A556F5B2C08 /* Pods-BYOPTests.release.xcconfig */,
+				35233D3BFC7951F9C625C974 /* Pods-BYOPUITests.debug.xcconfig */,
+				EFEA1024820C52F56ED3A88D /* Pods-BYOPUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		368783013DAEEAF16064EDDB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A97852FD768EFCEEE87CC548 /* Pods_BYOP.framework */,
+				7ED210CA3F3E5A8147272B4A /* Pods_BYOPTests.framework */,
+				F16FFCC8DFFEE27BE07CB7EC /* Pods_BYOPUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BFAA0C411E6B694E00FC7EA3 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				BFAA0C3D1E6B596600FC7EA3 /* SideMenuTableView.swift */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		BFAA0C421E6B695900FC7EA3 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				BFAA0C3B1E6B589300FC7EA3 /* MainViewController.swift */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		BFAA0C431E6B696100FC7EA3 /* Custom Order */ = {
+			isa = PBXGroup;
+			children = (
+				BFAA0C371E6B294D00FC7EA3 /* CustomOrdersController.swift */,
+				BFAA0C2F1E6B25A000FC7EA3 /* SelectToppingsController.swift */,
+			);
+			name = "Custom Order";
+			sourceTree = "<group>";
+		};
 		BFAB3A551E6A9E82007E2F34 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +164,8 @@
 				BFAB3A781E6A9E82007E2F34 /* BYOPTests */,
 				BFAB3A831E6A9E82007E2F34 /* BYOPUITests */,
 				BFAB3A5F1E6A9E82007E2F34 /* Products */,
+				2F69AF5B2FCC9FFADA8D5939 /* Pods */,
+				368783013DAEEAF16064EDDB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +182,12 @@
 		BFAB3A601E6A9E82007E2F34 /* BYOP */ = {
 			isa = PBXGroup;
 			children = (
-				BFAB3A611E6A9E82007E2F34 /* AppDelegate.swift */,
-				BFAB3A631E6A9E82007E2F34 /* ViewController.swift */,
-				BFAB3A651E6A9E82007E2F34 /* Main.storyboard */,
-				BFAB3A6B1E6A9E82007E2F34 /* Assets.xcassets */,
-				BFAB3A6D1E6A9E82007E2F34 /* LaunchScreen.storyboard */,
-				BFAB3A701E6A9E82007E2F34 /* Info.plist */,
-				BFAB3A681E6A9E82007E2F34 /* BYOP.xcdatamodeld */,
+				BFAB3A981E6A9EF7007E2F34 /* Model */,
+				BFAB3A991E6A9EFD007E2F34 /* View */,
+				BFAB3A971E6A9EF1007E2F34 /* Controllers */,
+				BFAB3A961E6A9EE6007E2F34 /* Interface */,
+				BFAB3A9B1E6A9F2C007E2F34 /* Core Data */,
+				BFAB3A9A1E6A9F0A007E2F34 /* Support */,
 			);
 			path = BYOP;
 			sourceTree = "<group>";
@@ -128,6 +210,63 @@
 			path = BYOPUITests;
 			sourceTree = "<group>";
 		};
+		BFAB3A961E6A9EE6007E2F34 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				BFAB3A651E6A9E82007E2F34 /* Main.storyboard */,
+				BFAB3A6D1E6A9E82007E2F34 /* LaunchScreen.storyboard */,
+			);
+			name = Interface;
+			sourceTree = "<group>";
+		};
+		BFAB3A971E6A9EF1007E2F34 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BFAA0C411E6B694E00FC7EA3 /* Menu */,
+				BFAA0C421E6B695900FC7EA3 /* Main */,
+				BFAA0C431E6B696100FC7EA3 /* Custom Order */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		BFAB3A981E6A9EF7007E2F34 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BFAA0C471E6C8FB700FC7EA3 /* Var.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		BFAB3A991E6A9EFD007E2F34 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BFAA0C311E6B261A00FC7EA3 /* ToppingsCell.swift */,
+				BFAA0C391E6B297C00FC7EA3 /* CustomOrdersCell.swift */,
+				BFAA0C451E6C7F0A00FC7EA3 /* RankingCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		BFAB3A9A1E6A9F0A007E2F34 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				BFAB3A611E6A9E82007E2F34 /* AppDelegate.swift */,
+				BFAB3A6B1E6A9E82007E2F34 /* Assets.xcassets */,
+				BFAB3A701E6A9E82007E2F34 /* Info.plist */,
+				BFAB3A921E6A9E9C007E2F34 /* Toppings.json */,
+				BFAB3A941E6A9EC4007E2F34 /* Assignment */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+		BFAB3A9B1E6A9F2C007E2F34 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				BFAB3A681E6A9E82007E2F34 /* BYOP.xcdatamodeld */,
+			);
+			name = "Core Data";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +274,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BFAB3A891E6A9E82007E2F34 /* Build configuration list for PBXNativeTarget "BYOP" */;
 			buildPhases = (
+				F4F42E3B0E20E49482FDA67C /* [CP] Check Pods Manifest.lock */,
 				BFAB3A5A1E6A9E82007E2F34 /* Sources */,
 				BFAB3A5B1E6A9E82007E2F34 /* Frameworks */,
 				BFAB3A5C1E6A9E82007E2F34 /* Resources */,
+				34659C7B03CE84764DD55FBD /* [CP] Embed Pods Frameworks */,
+				66823E34C677C99F19BDD10D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +294,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BFAB3A8C1E6A9E82007E2F34 /* Build configuration list for PBXNativeTarget "BYOPTests" */;
 			buildPhases = (
+				44F8163402930C3AA519F502 /* [CP] Check Pods Manifest.lock */,
 				BFAB3A711E6A9E82007E2F34 /* Sources */,
 				BFAB3A721E6A9E82007E2F34 /* Frameworks */,
 				BFAB3A731E6A9E82007E2F34 /* Resources */,
+				DCD4FABD23A773CEF3FB4B16 /* [CP] Embed Pods Frameworks */,
+				6957F64346EB426AE8D605E5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +315,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BFAB3A8F1E6A9E82007E2F34 /* Build configuration list for PBXNativeTarget "BYOPUITests" */;
 			buildPhases = (
+				E66939AC9B2FAA8582E9B466 /* [CP] Check Pods Manifest.lock */,
 				BFAB3A7C1E6A9E82007E2F34 /* Sources */,
 				BFAB3A7D1E6A9E82007E2F34 /* Frameworks */,
 				BFAB3A7E1E6A9E82007E2F34 /* Resources */,
+				2856134FC742DDC4AAB100D6 /* [CP] Embed Pods Frameworks */,
+				03EA8A433E9BCD236B1DBD74 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -241,6 +389,8 @@
 				BFAB3A6F1E6A9E82007E2F34 /* LaunchScreen.storyboard in Resources */,
 				BFAB3A6C1E6A9E82007E2F34 /* Assets.xcassets in Resources */,
 				BFAB3A671E6A9E82007E2F34 /* Main.storyboard in Resources */,
+				BFAB3A931E6A9E9C007E2F34 /* Toppings.json in Resources */,
+				BFAB3A951E6A9EC4007E2F34 /* Assignment in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,14 +410,159 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		03EA8A433E9BCD236B1DBD74 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BYOPUITests/Pods-BYOPUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2856134FC742DDC4AAB100D6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BYOPUITests/Pods-BYOPUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		34659C7B03CE84764DD55FBD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BYOP/Pods-BYOP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		44F8163402930C3AA519F502 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		66823E34C677C99F19BDD10D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BYOP/Pods-BYOP-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6957F64346EB426AE8D605E5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BYOPTests/Pods-BYOPTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCD4FABD23A773CEF3FB4B16 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BYOPTests/Pods-BYOPTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E66939AC9B2FAA8582E9B466 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F4F42E3B0E20E49482FDA67C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BFAB3A5A1E6A9E82007E2F34 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFAB3A641E6A9E82007E2F34 /* ViewController.swift in Sources */,
+				BFAA0C3C1E6B589300FC7EA3 /* MainViewController.swift in Sources */,
+				BFAA0C301E6B25A000FC7EA3 /* SelectToppingsController.swift in Sources */,
+				BFAA0C381E6B294D00FC7EA3 /* CustomOrdersController.swift in Sources */,
+				BFAA0C321E6B261A00FC7EA3 /* ToppingsCell.swift in Sources */,
+				BFAA0C481E6C8FB700FC7EA3 /* Var.swift in Sources */,
+				BFAA0C3A1E6B297C00FC7EA3 /* CustomOrdersCell.swift in Sources */,
 				BFAB3A6A1E6A9E82007E2F34 /* BYOP.xcdatamodeld in Sources */,
 				BFAB3A621E6A9E82007E2F34 /* AppDelegate.swift in Sources */,
+				BFAA0C461E6C7F0A00FC7EA3 /* RankingCell.swift in Sources */,
+				BFAA0C3E1E6B596600FC7EA3 /* SideMenuTableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +712,7 @@
 		};
 		BFAB3A8A1E6A9E82007E2F34 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1725DF00B34BB6839F011DF4 /* Pods-BYOP.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = E7AGR9GU94;
@@ -430,6 +726,7 @@
 		};
 		BFAB3A8B1E6A9E82007E2F34 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A67AE33D1242EC8A2F0499EB /* Pods-BYOP.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = E7AGR9GU94;
@@ -443,6 +740,7 @@
 		};
 		BFAB3A8D1E6A9E82007E2F34 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 892DE9F1A8C7027B340179E0 /* Pods-BYOPTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -458,6 +756,7 @@
 		};
 		BFAB3A8E1E6A9E82007E2F34 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAFC0AB618408A556F5B2C08 /* Pods-BYOPTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -473,6 +772,7 @@
 		};
 		BFAB3A901E6A9E82007E2F34 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35233D3BFC7951F9C625C974 /* Pods-BYOPUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = E7AGR9GU94;
@@ -487,6 +787,7 @@
 		};
 		BFAB3A911E6A9E82007E2F34 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFEA1024820C52F56ED3A88D /* Pods-BYOPUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = E7AGR9GU94;
@@ -518,6 +819,7 @@
 				BFAB3A8B1E6A9E82007E2F34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BFAB3A8C1E6A9E82007E2F34 /* Build configuration list for PBXNativeTarget "BYOPTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +828,7 @@
 				BFAB3A8E1E6A9E82007E2F34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BFAB3A8F1E6A9E82007E2F34 /* Build configuration list for PBXNativeTarget "BYOPUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +837,7 @@
 				BFAB3A911E6A9E82007E2F34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

@@ -1,4 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11759" systemVersion="16C67" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Pizza" representedClassName="Pizza" syncable="YES" codeGenerationType="class">
+        <attribute name="favorite" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="topping" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Topping" inverseName="pizza" inverseEntity="Topping" syncable="YES"/>
+    </entity>
+    <entity name="Topping" representedClassName="Topping" syncable="YES" codeGenerationType="class">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="pizza" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Pizza" inverseName="topping" inverseEntity="Pizza" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Pizza" positionX="-389" positionY="-18" width="128" height="73"/>
+        <element name="Topping" positionX="-218" positionY="-18" width="128" height="73"/>
+    </elements>
 </model>
